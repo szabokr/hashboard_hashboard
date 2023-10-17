@@ -1,44 +1,40 @@
-# default
+# Hashboard Dashboard Frontend
 
-## Project setup
+The Hashboard Dashboard Frontend is a Vue.js application with Vuetify components, providing a user-friendly interface for managing and interacting with the Hashboard ecosystem.
 
-```
-# yarn
-yarn
+## Features
 
-# npm
-npm install
+- **User Authentication**: Securely log in using credentials managed by the Hashboard Authentication Microservice.
 
-# pnpm
-pnpm install
-```
+- **Dashboard Overview**: Comprehensive dashboard providing essential information and statistics from the Hashboard ecosystem.
 
-### Compiles and hot-reloads for development
+- **User Management**: Administrators can manage user roles, permissions, and other settings through integration with the Suppboard backend.
 
-```
-# yarn
-yarn dev
+- **Real-Time Updates**: Utilizes WebSocket or other real-time communication channels for live updates and notifications.
 
-# npm
-npm run dev
+- **Responsive Design**: A responsive and mobile-friendly design for a seamless user experience.
 
-# pnpm
-pnpm dev
-```
+## Technology Stack
 
-### Compiles and minifies for production
+- **Vue.js**
+- **Vuetify**
+- **WebSocket (or alternative real-time communication)**
+- **Axios for API communication**
 
-```
-# yarn
-yarn build
+## Getting Started
 
-# npm
-npm run build
+### Prerequisites
 
-# pnpm
-pnpm build
-```
+- Docker
 
-### Customize configuration
+### Installation
 
-See [Configuration Reference](https://vitejs.dev/config/).
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/szabokr/Hashboard.git
+
+2. Clone the repository:
+
+   ```bash
+   bash start.sh
